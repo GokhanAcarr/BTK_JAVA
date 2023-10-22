@@ -7,7 +7,7 @@ public class Main {
         double kdv1 = 0.18, kdv2 = 0.08;
 
         System.out.print("Please enter the amount: ");
-        double amount = input.nextInt();
+        double amount = input.nextDouble();
 
         if ((amount <= 1000) && (amount >= 0))
         {
